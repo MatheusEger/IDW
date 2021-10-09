@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&display=swap');
+/* GERAL */
+
+.bg{
+	background-image: url("./img/CSGO.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+h2{
+	font-size: 20px;
+}
+
+h3{
+	font-size: 15px;
+}
+
+h2, h3{
+	color: white;
+	font-weight: bold;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+/*header*/
+header{
+	display: flex;
+	
+}
+
+header img{
+	flex: 1 ;
+	
+}
+
+body{
+	max-width: 100%;
+	margin-left: 20%;
+	margin-right: 32%;
+}
+
+/*MENU DE NAVEGAÇÃO*/
+	
+.nav_container{
+	background-color: rgba(0,0,0,0.88);
+	max-width: 100%;
+	display: flex;
+	text-align: center;
+	margin-top: 50%;	
+	font-size: 100%;
+
+
+}
+
+.nav_container a{
+	color: white;
+	text-decoration: none;
+
+}
+
+#div1{
+
+	flex: 1;
+}
+
+#div2{
+
+	flex: 1;
+
+}
+
+#div3{
+	
+	flex: 1;
+	
+}
+
+#div4{
+
+	flex: 1;
+	
+}
+
+/* CONTEUDO DA PAGINA */
+
+#content{
+		
+	float: left;
+	height: 100%;
+	margin-top: 5px;
+	width: 100%;
+	padding: 35px;
+	text-align: justify;
+	background-color: rgba(0,0,0,0.88);
+	background-position: fixed;
+
+}
+#content p{
+
+	font-family: 'Lora', serif;
+	font-size: 14px;
+	color: white;
+	text-align: justify;
+
+}
+
+#content img{
+	max-width: 100%;
+	display: flex;
+	width: 600px;
+	height: 300px;
+
+}
