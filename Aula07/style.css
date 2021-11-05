@@ -1,4 +1,5 @@
 /*geral*/
+
 body, ul, li, p {
     margin: 0px;
     padding: 0px;
@@ -11,7 +12,9 @@ a {
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
+
 /*MENU/NAV*/
+
 .menu {
     background: #ffffff; 
     display: flex;
@@ -33,7 +36,6 @@ a {
 .menu img, button{
     display: block;
     padding: 10px;
-    
 }
 
 .menu a:hover{
@@ -47,13 +49,12 @@ a {
     border: 0.1px;
     padding: 9px 23px 9px;
     font-size: 15px;
-    border-radius: 4px;
-    text-decoration: none;
+    border-radius: 4px;   
 }
 
 #login:hover{
     background: #a0c2fa;
-    text-decoration: none;
+    
 }
 
 /*SEÇÃO PRINCIPAL*/
@@ -67,16 +68,19 @@ a {
 }
 
 /*RODAPÉ*/
+
 .footer{
     background: darkgreen;
     display: flex;
     padding: 10px;
+    justify-content: flex-start;
 }
 .footer2{
+    display: flex;
     background: blueviolet;
     padding: 10px;
-    background-color: darkkhaki;
-    display: flex;
+    background-color: darkkhaki;  
     justify-content: flex-end;
     flex-wrap: wrap;
+
 }
