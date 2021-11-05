@@ -1,31 +1,82 @@
+/*geral*/
 body, ul, li, p {
     margin: 0px;
     padding: 0px;
     list-style: none;
     font-size: 1.2rem;
     font-family: Arial;
-
 }
 
 a {
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
-
+/*MENU/NAV*/
 .menu {
     background: #ffffff; 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: left;
-    padding: 20px;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 13px;
 }
 
 .menu li{
-    margin-left: 10px;
+    margin-left: 8px;
+    font-size: 13px;
 }
 
 .menu li a {
     display: block;
     padding: 10px;
+}
+.menu img, button{
+    display: block;
+    padding: 10px;
+    
+}
+
+.menu a:hover{
+    text-decoration: underline;
+}
+
+/*ID DO BOTÃO DE LOGIN*/
+
+#login{
+    background: #8ab4f8;
+    border: 0.1px;
+    padding: 9px 23px 9px;
+    font-size: 15px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+#login:hover{
+    background: #a0c2fa;
+    text-decoration: none;
+}
+
+/*SEÇÃO PRINCIPAL*/
+
+.section{
+    background: darkblue;
+    display: flex;
+    
+    justify-content: space-around;
+    padding: 100px;
+}
+
+/*RODAPÉ*/
+.footer{
+    background: darkgreen;
+    display: flex;
+    padding: 10px;
+}
+.footer2{
+    background: blueviolet;
+    padding: 10px;
+    background-color: darkkhaki;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
 }
