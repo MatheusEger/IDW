@@ -1,0 +1,166 @@
+/*geral*/
+
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+    max-width: 100%;
+    
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+/*MENU/NAV*/
+
+.menu {
+    background: #ffffff; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px;
+}
+
+.menu li{
+    margin-left: 8px;
+    font-size: 13px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+}
+
+.menu img, button{
+    display: block;
+    padding: 14px;
+}
+
+.menu li:hover{
+    text-decoration: underline;
+
+}
+
+/*BOTÃO DE LOGIN*/
+
+#login{
+    background: #1a73e8;
+    border: 0.1px;
+    padding: 10px 22px 10px;
+    font-size: 15px;
+    border-radius: 4px; 
+    color: #fff;  
+}
+
+#login:hover{
+    background: #2986ff;
+}
+
+/*SEÇÃO PRINCIPAL*/
+
+.imgGoogle{
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#barraPesquisa{
+    align-items: center;
+    border: 0.1px solid rgb(225, 225, 225);
+    width: 30em;
+    height: 2.5em;
+    padding-left: 36px;
+    border-radius: 19px;
+    
+}
+
+.search{
+    padding-left: 40px;
+    position: relative;
+    left: 0;
+    top: 7vh;
+    padding: 9px 8px;
+    color: #aaa;
+}
+
+.section{
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1fr;
+    padding-bottom: 25vh;
+    height: 23vh;
+}
+
+
+.botao{
+    display: flex;
+    padding-top: 1em;
+    padding: 10px 25px 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.botao button {
+    border: transparent;
+    padding: 10px 25px 10px;
+    border-radius: 4px;  
+    color: rgb(43, 43, 43);
+    font-size: 14px;
+    
+}
+.botao a {
+    border: transparent;
+    padding: 10px 5px 10px;
+    border-radius: 4px;  
+    color: rgb(43, 43, 43);
+    font-size: 14px;
+    
+}
+
+.botao button:hover{
+    border: 0.1px solid rgb(225, 225, 225);
+}
+
+/*RODAPÉ*/
+
+footer{
+    display: flex;
+    font-size: 15px;
+    padding: 25px;
+    flex-wrap: wrap;
+    flex-direction: column; 
+    position: relative;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 0;
+    max-width: 100%;
+    width: 95%;
+    
+}
+
+.fot1 {
+    display: flex;
+    padding-bottom: 18px;
+}
+
+.fot2 {
+
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: flex-start;
+
+}
+.fot3{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+
+}
