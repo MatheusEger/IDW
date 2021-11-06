@@ -6,6 +6,7 @@ body, ul, li, p {
     list-style: none;
     font-size: 1.2rem;
     font-family: Arial;
+    
 }
 
 a {
@@ -21,7 +22,7 @@ a {
     flex-wrap: wrap;
     justify-content: flex-end;
     align-items: center;
-    padding: 5px;
+    padding: 15px;
 }
 
 .menu li{
@@ -33,12 +34,13 @@ a {
     display: block;
     padding: 10px;
 }
+
 .menu img, button{
     display: block;
     padding: 10px;
 }
 
-.menu a:hover{
+.menu li:hover{
     text-decoration: underline;
 
 }
@@ -56,35 +58,91 @@ a {
 
 #login:hover{
     background: #2986ff;
-    
 }
 
 /*SEÇÃO PRINCIPAL*/
 
+.imgGoogle{
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#barraPesquisa{
+    align-items: center;
+    border: 0.1px solid rgb(225, 225, 225);
+    width: 30em;
+    height: 2.5em;
+    padding-left: 36px;
+    border-radius: 19px;
+    
+}
+
+.search{
+    padding-left: 40px;
+    position: relative;
+    left: 0;
+    top: 40px;
+    padding: 9px 8px;
+    color: #aaa;
+}
+
 .section{
-    background: darkblue;
     display: grid;
     justify-content: space-around;
     align-items: center;
-    padding-top: 15%;
+    padding-top: 1fr;
     padding-bottom: 25vh;
 }
-.section .button{
-    display: grid;
+
+
+.botao{
+    display: flex;
+    padding-top: 1em;
+    padding: 10px 25px 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
     
+}
+
+.botao button {
+    border: transparent;
+    padding: 10px 25px 10px;
+    border-radius: 4px;  
+    color: rgb(43, 43, 43);
+    font-size: 14px;
+    
+}
+.botao a {
+    border: transparent;
+    padding: 10px 5px 10px;
+    border-radius: 4px;  
+    color: rgb(43, 43, 43);
+    font-size: 14px;
+    
+}
+
+.botao button:hover{
+    border: 0.1px solid rgb(225, 225, 225);
 }
 
 /*RODAPÉ*/
 
+footer{
+    display: flex;
+    align-self:
+}
+
 .footer{
-    background: darkgreen;
+    background: #aaa;
     display: flex;
     padding: 10px;
     justify-content:space-between;
     flex-shrink: 0;
 
 }
-.footer2 {
-    display: flex;
-    align-self: start;;
+
+.footer2{
+    background: red;
 }
