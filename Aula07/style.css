@@ -6,6 +6,7 @@ body, ul, li, p {
     list-style: none;
     font-size: 1.2rem;
     font-family: Arial;
+    max-width: 100%;
     
 }
 
@@ -82,7 +83,7 @@ a {
     padding-left: 40px;
     position: relative;
     left: 0;
-    top: 40px;
+    top: 7vh;
     padding: 9px 8px;
     color: #aaa;
 }
@@ -93,6 +94,7 @@ a {
     align-items: center;
     padding-top: 1fr;
     padding-bottom: 25vh;
+    height: 23vh;
 }
 
 
@@ -128,17 +130,37 @@ a {
 
 /*RODAPÉ*/
 
-.rodape{
+footer{
     display: flex;
-    background: yellowgreen;
-    padding: o 20px;
     font-size: 15px;
-}
-
-.fot2.fot3{
-    display: flex;
-    justify-content: space-around;
+    padding: 25px;
+    flex-wrap: wrap;
+    flex-direction: column; 
+    position: relative;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 0;
+    max-width: 100%;
+    width: 95%;
     
 }
 
+.fot1 {
+    display: flex;
+    padding-bottom: 18px;
+}
 
+.fot2 {
+
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: flex-start;
+
+}
+.fot3{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+
+}
